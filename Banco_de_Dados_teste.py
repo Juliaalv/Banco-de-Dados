@@ -46,7 +46,7 @@ def inserirv():
     return (v)
 
 
-#função para gerar dados aletórios de velocidade
+#função para gerar dados aletórios de precipitação
 def inserirp():
     for i in range(0,1):
         p = 10*np.random.rand()+10
@@ -73,7 +73,7 @@ def data_entry():
 
 
 
-# Loop infinito de update de base de dados
+# Loop de update de base de dados
 i=1
 while True:
     # Atualiza banco de dados
