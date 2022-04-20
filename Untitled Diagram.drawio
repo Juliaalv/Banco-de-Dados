@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" modified="2022-04-20T18:25:40.250Z" agent="5.0 (Windows)" etag="9GZYeFAnYwx03EeayliG" version="17.4.6" type="github">
+  <diagram id="8p747fBmEcy-iKY4c8tI" name="Page-1">
+    <mxGraphModel dx="856" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="40_XZp45qOCVzQw-5rsU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40_XZp45qOCVzQw-5rsU-1" target="40_XZp45qOCVzQw-5rsU-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-1" value="Situação Geral:" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uz4vjUUyRgjG6ynNiQo_-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="40_XZp45qOCVzQw-5rsU-2" target="40_XZp45qOCVzQw-5rsU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-2" value="Validação dos Dados da estação" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="60" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40_XZp45qOCVzQw-5rsU-3" target="40_XZp45qOCVzQw-5rsU-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-3" value="Queda de Internet" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40_XZp45qOCVzQw-5rsU-5" target="40_XZp45qOCVzQw-5rsU-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-5" value="&amp;nbsp;NP= (Nh - UC)/TA" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="275" y="240" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="40_XZp45qOCVzQw-5rsU-8" target="40_XZp45qOCVzQw-5rsU-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="40_XZp45qOCVzQw-5rsU-8" target="40_XZp45qOCVzQw-5rsU-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-8" value="NP = Float" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="380" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="40_XZp45qOCVzQw-5rsU-11" target="40_XZp45qOCVzQw-5rsU-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-11" value="PC = INT (do número de periodos) + 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-12" value="NT = PC - (NH-UC)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-17" value="SIM" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="420" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-20" value="NÃO" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="520" width="40" as="geometry" />
+        </mxCell>
+        <mxCell id="40_XZp45qOCVzQw-5rsU-23" value="&lt;div style=&quot;font-size: 15px&quot; align=&quot;justify&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;NH = Novo Horário de coleta&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot; align=&quot;justify&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;UC= Ultima Coleta &lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot; align=&quot;justify&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;TA = Tempo de Amostragem&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot; align=&quot;justify&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;NP= Número de Períodos&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot; align=&quot;justify&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;PC = Períodos Completos&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot; align=&quot;justify&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;NT = Novo Tempo para coleta prevista&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="480" y="20" width="340" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
